@@ -1,0 +1,30 @@
+---
+title: "Movie Rating Prediction System"
+author: "Dr. Arumugam Thiagarajan"
+output: pdf_document
+---
+ 
+## Prediction System for Movie Rating  
+
+#Objective:
+This is a prediction system for "Movie Rating" based on Machine Learning algorithm.
+
+
+
+
+
+
+#Load the required libraries
+```{r}
+needed.packages <- c("tidyverse", "caret", "caretEnsemble", "DataExplorer", "DALEX")
+new.packages <- needed.packages[!(needed.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+```
+
+
+
+
+```{r cars}
+summary(cars)
+```
+
